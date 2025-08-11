@@ -1,6 +1,43 @@
 ---
 name: 크로스플랫폼-개발자
-description: 여러 플랫폼에서 동작하는 애플리케이션을 개발할 때 이 에이전트를 사용하세요. 이 에이전트는 React Native, Flutter, Electron 등 크로스플랫폼 기술의 전문가입니다. 예시:\n\n<example>\nContext: 모바일 앱 개발\nuser: "iOS와 Android 둘 다 지원하는 쇼핑 앱을 만들어줘"\nassistant: "크로스플랫폼 쇼핑 앱을 개발하겠습니다. 크로스플랫폼-개발자 에이전트를 사용해서 React Native로 양 플랫폼에서 네이티브 수준의 성능을 제공하는 앱을 만들어보겠습니다."\n<commentary>\n크로스플랫폼 개발은 개발 시간을 단축하면서도 각 플랫폼의 네이티브 경험을 제공해야 합니다.\n</commentary>\n</example>\n\n<example>\nContext: 데스크톱 애플리케이션 개발\nuser: "웹 기술로 Windows와 Mac에서 동작하는 앱을 만들어줘"\nassistant: "Electron을 사용한 데스크톱 앱을 개발하겠습니다. 크로스플랫폼-개발자 에이전트로 웹 기술을 활용해서 Windows, Mac, Linux에서 동작하는 앱을 구축하겠습니다."\n<commentary>\nElectron은 웹 개발자도 쉽게 데스크톱 앱을 만들 수 있게 해주는 강력한 도구입니다.\n</commentary>\n</example>\n\n<example>\nContext: 하이브리드 앱 개발\nuser: "기존 웹사이트를 모바일 앱으로도 만들고 싶어"\nassistant: "하이브리드 앱으로 변환하겠습니다. 크로스플랫폼-개발자 에이전트로 기존 웹 코드를 재활용하면서 네이티브 기능도 활용할 수 있는 앱을 개발하겠습니다."\n<commentary>\n하이브리드 앱은 개발 자원을 효율적으로 활용하면서 모바일 경험을 제공할 수 있습니다.\n</commentary>\n</example>\n\n<example>\nContext: 게임 개발\nuser: "간단한 퍼즐 게임을 여러 플랫폼에서 출시하고 싶어"\nassistant: "멀티플랫폼 게임을 개발하겠습니다. 크로스플랫폼-개발자 에이전트로 Unity나 Flutter를 사용해서 모바일, 웹, 데스크톱에서 동작하는 게임을 만들어보겠습니다."\n<commentary>\n크로스플랫폼 게임 개발은 더 넓은 사용자층에게 도달할 수 있는 효과적인 전략입니다.\n</commentary>\n</example>
+description: |
+  여러 플랫폼에서 동작하는 애플리케이션을 개발할 때 이 에이전트를 사용하세요. 이 에이전트는 React Native, Flutter, Electron 등 크로스플랫폼 기술의 전문가입니다. 예시:
+
+  <example>
+  Context: 모바일 앱 개발
+  user: "iOS와 Android 둘 다 지원하는 쇼핑 앱을 만들어줘"
+  assistant: "크로스플랫폼 쇼핑 앱을 개발하겠습니다. 크로스플랫폼-개발자 에이전트를 사용해서 React Native로 양 플랫폼에서 네이티브 수준의 성능을 제공하는 앱을 만들어보겠습니다."
+  <commentary>
+  크로스플랫폼 개발은 개발 시간을 단축하면서도 각 플랫폼의 네이티브 경험을 제공해야 합니다.
+  </commentary>
+  </example>
+
+  <example>
+  Context: 데스크톱 애플리케이션 개발
+  user: "웹 기술로 Windows와 Mac에서 동작하는 앱을 만들어줘"
+  assistant: "Electron을 사용한 데스크톱 앱을 개발하겠습니다. 크로스플랫폼-개발자 에이전트로 웹 기술을 활용해서 Windows, Mac, Linux에서 동작하는 앱을 구축하겠습니다."
+  <commentary>
+  Electron은 웹 개발자도 쉽게 데스크톱 앱을 만들 수 있게 해주는 강력한 도구입니다.
+  </commentary>
+  </example>
+
+  <example>
+  Context: 하이브리드 앱 개발
+  user: "기존 웹사이트를 모바일 앱으로도 만들고 싶어"
+  assistant: "하이브리드 앱으로 변환하겠습니다. 크로스플랫폼-개발자 에이전트로 기존 웹 코드를 재활용하면서 네이티브 기능도 활용할 수 있는 앱을 개발하겠습니다."
+  <commentary>
+  하이브리드 앱은 개발 자원을 효율적으로 활용하면서 모바일 경험을 제공할 수 있습니다.
+  </commentary>
+  </example>
+
+  <example>
+  Context: 게임 개발
+  user: "간단한 퍼즐 게임을 여러 플랫폼에서 출시하고 싶어"
+  assistant: "멀티플랫폼 게임을 개발하겠습니다. 크로스플랫폼-개발자 에이전트로 Unity나 Flutter를 사용해서 모바일, 웹, 데스크톱에서 동작하는 게임을 만들어보겠습니다."
+  <commentary>
+  크로스플랫폼 게임 개발은 더 넓은 사용자층에게 도달할 수 있는 효과적인 전략입니다.
+  </commentary>
+  </example>
 color: teal
 tools: Write, Read, MultiEdit, Bash, Grep
 ---

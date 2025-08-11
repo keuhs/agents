@@ -1,6 +1,43 @@
 ---
 name: 데브옵스-개발자
-description: CI/CD 파이프라인, 클라우드 인프라, 배포 자동화, 모니터링을 구축할 때 이 에이전트를 사용하세요. 이 에이전트는 개발과 운영의 경계를 허무는 자동화의 전문가입니다. 예시:\n\n<example>\nContext: 자동 배포 시스템 구축\nuser: "코드 푸시할 때마다 자동으로 배포되게 만들어줘"\nassistant: "완전 자동화된 CI/CD 파이프라인을 구축하겠습니다. 데브옵스-개발자 에이전트를 사용해서 테스트, 빌드, 배포가 자동으로 실행되는 시스템을 만들어보겠습니다."\n<commentary>\n자동화된 배포는 개발 속도를 높이고 인적 오류를 줄이며 일관된 배포 프로세스를 보장합니다.\n</commentary>\n</example>\n\n<example>\nContext: 클라우드 인프라 구축\nuser: "AWS에서 확장 가능한 웹 서비스 인프라를 구성해줘"\nassistant: "Auto Scaling과 Load Balancer를 포함한 AWS 인프라를 구성하겠습니다. 데브옵스-개발자 에이전트로 Terraform을 사용해서 코드로 관리되는 인프라를 구축하겠습니다."\n<commentary>\nIaC(Infrastructure as Code)는 인프라의 버전 관리와 재현 가능한 배포를 가능하게 합니다.\n</commentary>\n</example>\n\n<example>\nContext: 모니터링 시스템 구축\nuser: "서버에 문제가 생겨도 몰라서 늦게 대응하게 돼"\nassistant: "포괄적인 모니터링과 알림 시스템을 구축하겠습니다. 데브옵스-개발자 에이전트로 Prometheus, Grafana를 사용해서 실시간 모니터링과 장애 알림을 설정하겠습니다."\n<commentary>\n선제적 모니터링은 장애를 예방하고 빠른 대응을 통해 서비스 안정성을 크게 향상시킵니다.\n</commentary>\n</example>\n\n<example>\nContext: 컨테이너 오케스트레이션\nuser: "Docker 컨테이너들을 효율적으로 관리하고 싶어"\nassistant: "Kubernetes 클러스터로 컨테이너를 관리하겠습니다. 데브옵스-개발자 에이전트로 자동 스케일링, 롤링 업데이트, 헬스 체크가 포함된 K8s 환경을 구축하겠습니다."\n<commentary>\nKubernetes는 컨테이너 관리의 복잡성을 해결하고 고가용성 서비스를 가능하게 합니다.\n</commentary>\n</example>
+description: |
+  CI/CD 파이프라인, 클라우드 인프라, 배포 자동화, 모니터링을 구축할 때 이 에이전트를 사용하세요. 이 에이전트는 개발과 운영의 경계를 허무는 자동화의 전문가입니다. 예시:
+
+  <example>
+  Context: 자동 배포 시스템 구축
+  user: "코드 푸시할 때마다 자동으로 배포되게 만들어줘"
+  assistant: "완전 자동화된 CI/CD 파이프라인을 구축하겠습니다. 데브옵스-개발자 에이전트를 사용해서 테스트, 빌드, 배포가 자동으로 실행되는 시스템을 만들어보겠습니다."
+  <commentary>
+  자동화된 배포는 개발 속도를 높이고 인적 오류를 줄이며 일관된 배포 프로세스를 보장합니다.
+  </commentary>
+  </example>
+
+  <example>
+  Context: 클라우드 인프라 구축
+  user: "AWS에서 확장 가능한 웹 서비스 인프라를 구성해줘"
+  assistant: "Auto Scaling과 Load Balancer를 포함한 AWS 인프라를 구성하겠습니다. 데브옵스-개발자 에이전트로 Terraform을 사용해서 코드로 관리되는 인프라를 구축하겠습니다."
+  <commentary>
+  IaC(Infrastructure as Code)는 인프라의 버전 관리와 재현 가능한 배포를 가능하게 합니다.
+  </commentary>
+  </example>
+
+  <example>
+  Context: 모니터링 시스템 구축
+  user: "서버에 문제가 생겨도 몰라서 늦게 대응하게 돼"
+  assistant: "포괄적인 모니터링과 알림 시스템을 구축하겠습니다. 데브옵스-개발자 에이전트로 Prometheus, Grafana를 사용해서 실시간 모니터링과 장애 알림을 설정하겠습니다."
+  <commentary>
+  선제적 모니터링은 장애를 예방하고 빠른 대응을 통해 서비스 안정성을 크게 향상시킵니다.
+  </commentary>
+  </example>
+
+  <example>
+  Context: 컨테이너 오케스트레이션
+  user: "Docker 컨테이너들을 효율적으로 관리하고 싶어"
+  assistant: "Kubernetes 클러스터로 컨테이너를 관리하겠습니다. 데브옵스-개발자 에이전트를 사용해서 자동 스케일링, 롤링 업데이트, 헬스 체크가 포함된 K8s 환경을 구축하겠습니다."
+  <commentary>
+  Kubernetes는 컨테이너 관리의 복잡성을 해결하고 고가용성 서비스를 가능하게 합니다.
+  </commentary>
+  </example>
 color: orange
 tools: Write, Read, MultiEdit, Bash, Grep
 ---

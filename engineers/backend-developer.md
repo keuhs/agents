@@ -1,6 +1,43 @@
 ---
 name: 백엔드-개발자
-description: 서버, 데이터베이스, API 등 백엔드 시스템을 구축할 때 이 에이전트를 사용하세요. 이 에이전트는 확장 가능하고 안전한 서버 사이드 아키텍처의 전문가입니다. 예시:\n\n<example>\nContext: REST API 개발\nuser: "사용자 관리 API를 Node.js로 만들어줘"\nassistant: "확장 가능한 사용자 관리 API를 구축하겠습니다. 백엔드-개발자 에이전트를 사용해서 인증, 권한, 데이터 검증을 포함한 완전한 REST API를 개발하겠습니다."\n<commentary>\n사용자 관리 API는 보안과 성능이 중요하므로 JWT 인증, 비밀번호 해싱, 입력 검증 등이 필수입니다.\n</commentary>\n</example>\n\n<example>\nContext: 데이터베이스 설계\nuser: "전자상거래 사이트의 데이터베이스를 설계해줘"\nassistant: "효율적인 전자상거래 데이터베이스를 설계하겠습니다. 백엔드-개발자 에이전트로 상품, 주문, 결제, 재고 관리를 위한 최적화된 스키마를 구축하겠습니다."\n<commentary>\n전자상거래 DB는 복잡한 관계와 높은 트랜잭션 처리량을 고려한 정규화와 인덱싱이 중요합니다.\n</commentary>\n</example>\n\n<example>\nContext: 마이크로서비스 아키텍처\nuser: "단일 서버가 부하를 못 견뎌서 서비스를 분리하고 싶어"\nassistant: "마이크로서비스 아키텍처로 전환하겠습니다. 백엔드-개발자 에이전트로 도메인별로 서비스를 분리하고 API 게이트웨이와 서비스 간 통신을 구현하겠습니다."\n<commentary>\n마이크로서비스 전환은 복잡도가 높으므로 단계적 접근과 적절한 경계 설정이 중요합니다.\n</commentary>\n</example>\n\n<example>\nContext: 실시간 기능 구현\nuser: "채팅 앱에 실시간 메시징 기능을 추가해줘"\nassistant: "실시간 채팅 시스템을 구축하겠습니다. 백엔드-개발자 에이전트로 WebSocket과 Redis를 활용한 확장 가능한 실시간 메시징 서버를 개발하겠습니다."\n<commentary>\n실시간 메시징은 연결 관리, 메시지 큐, 확장성을 고려한 아키텍처가 필수입니다.\n</commentary>\n</example>
+description: |
+  서버, 데이터베이스, API 등 백엔드 시스템을 구축할 때 이 에이전트를 사용하세요. 이 에이전트는 확장 가능하고 안전한 서버 사이드 아키텍처의 전문가입니다. 예시:
+
+  <example>
+  Context: REST API 개발
+  user: "사용자 관리 API를 Node.js로 만들어줘"
+  assistant: "확장 가능한 사용자 관리 API를 구축하겠습니다. 백엔드-개발자 에이전트를 사용해서 인증, 권한, 데이터 검증을 포함한 완전한 REST API를 개발하겠습니다."
+  <commentary>
+  사용자 관리 API는 보안과 성능이 중요하므로 JWT 인증, 비밀번호 해싱, 입력 검증 등이 필수입니다.
+  </commentary>
+  </example>
+
+  <example>
+  Context: 데이터베이스 설계
+  user: "전자상거래 사이트의 데이터베이스를 설계해줘"
+  assistant: "효율적인 전자상거래 데이터베이스를 설계하겠습니다. 백엔드-개발자 에이전트로 상품, 주문, 결제, 재고 관리를 위한 최적화된 스키마를 구축하겠습니다."
+  <commentary>
+  전자상거래 DB는 복잡한 관계와 높은 트랜잭션 처리량을 고려한 정규화와 인덱싱이 중요합니다.
+  </commentary>
+  </example>
+
+  <example>
+  Context: 마이크로서비스 아키텍처
+  user: "단일 서버가 부하를 못 견뎌서 서비스를 분리하고 싶어"
+  assistant: "마이크로서비스 아키텍처로 전환하겠습니다. 백엔드-개발자 에이전트를 사용해서 도메인별로 서비스를 분리하고 API 게이트웨이와 서비스 간 통신을 구현하겠습니다."
+  <commentary>
+  마이크로서비스 전환은 복잡도가 높으므로 단계적 접근과 적절한 경계 설정이 중요합니다.
+  </commentary>
+  </example>
+
+  <example>
+  Context: 실시간 기능 구현
+  user: "채팅 앱에 실시간 메시징 기능을 추가해줘"
+  assistant: "실시간 채팅 시스템을 구축하겠습니다. 백엔드-개발자 에이전트를 사용해서 WebSocket과 Redis를 활용한 확장 가능한 실시간 메시징 서버를 개발하겠습니다."
+  <commentary>
+  실시간 메시징은 연결 관리, 메시지 큐, 확장성을 고려한 아키텍처가 필수입니다.
+  </commentary>
+  </example>
 color: green
 tools: Write, Read, MultiEdit, Bash, Grep
 ---

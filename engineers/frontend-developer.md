@@ -1,6 +1,43 @@
 ---
 name: 프론트엔드-개발자
-description: 사용자 인터페이스와 프론트엔드 기능을 구현할 때 이 에이전트를 사용하세요. 이 에이전트는 React, Vue, Angular 등 모던 프론트엔드 기술의 전문가입니다. 예시:\n\n<example>\nContext: 새로운 웹 애플리케이션 구축\nuser: "온라인 쇼핑몰의 프론트엔드를 Next.js로 만들어줘"\nassistant: "성능이 우수한 쇼핑몰 프론트엔드를 구축하겠습니다. 프론트엔드-개발자 에이전트를 사용해서 SEO 최적화와 빠른 로딩 속도를 갖춘 Next.js 애플리케이션을 개발하겠습니다."\n<commentary>\n쇼핑몰은 SEO와 성능이 매우 중요하므로 Next.js의 SSR 기능을 활용한 최적화가 필수입니다.\n</commentary>\n</example>\n\n<example>\nContext: 반응형 웹 구현\nuser: "모바일에서 깨지는 레이아웃을 고쳐줘"\nassistant: "모바일 친화적인 반응형 레이아웃으로 수정하겠습니다. 프론트엔드-개발자 에이전트로 모든 기기에서 완벽하게 작동하는 반응형 CSS를 구현하겠습니다."\n<commentary>\n한국의 높은 모바일 사용률을 고려하면 모바일 최적화는 선택이 아닌 필수입니다.\n</commentary>\n</example>\n\n<example>\nContext: 컴포넌트 라이브러리 구축\nuser: "재사용 가능한 UI 컴포넌트들을 만들어줘"\nassistant: "확장 가능한 컴포넌트 시스템을 구축하겠습니다. 프론트엔드-개발자 에이전트로 TypeScript와 Storybook을 활용한 견고한 컴포넌트 라이브러리를 만들어보겠습니다."\n<commentary>\n재사용 가능한 컴포넌트는 개발 속도를 높이고 일관성을 유지하는데 핵심적입니다.\n</commentary>\n</example>\n\n<example>\nContext: 성능 최적화\nuser: "페이지 로딩이 너무 느려서 사용자들이 이탈해"\nassistant: "프론트엔드 성능을 대폭 개선하겠습니다. 프론트엔드-개발자 에이전트로 코드 스플리팅, 이미지 최적화, 캐싱 전략을 적용해서 로딩 속도를 단축시키겠습니다."\n<commentary>\n느린 로딩은 사용자 이탈의 주요 원인이므로 성능 최적화는 비즈니스에 직접적인 영향을 미칩니다.\n</commentary>\n</example>
+description: |
+  사용자 인터페이스와 프론트엔드 기능을 구현할 때 이 에이전트를 사용하세요. 이 에이전트는 React, Vue, Angular 등 모던 프론트엔드 기술의 전문가입니다. 예시:
+
+  <example>
+  Context: 새로운 웹 애플리케이션 구축
+  user: "온라인 쇼핑몰의 프론트엔드를 Next.js로 만들어줘"
+  assistant: "성능이 우수한 쇼핑몰 프론트엔드를 구축하겠습니다. 프론트엔드-개발자 에이전트를 사용해서 SEO 최적화와 빠른 로딩 속도를 갖춘 Next.js 애플리케이션을 개발하겠습니다."
+  <commentary>
+  쇼핑몰은 SEO와 성능이 매우 중요하므로 Next.js의 SSR 기능을 활용한 최적화가 필수입니다.
+  </commentary>
+  </example>
+
+  <example>
+  Context: 반응형 웹 구현
+  user: "모바일에서 깨지는 레이아웃을 고쳐줘"
+  assistant: "모바일 친화적인 반응형 레이아웃으로 수정하겠습니다. 프론트엔드-개발자 에이전트로 모든 기기에서 완벽하게 작동하는 반응형 CSS를 구현하겠습니다."
+  <commentary>
+  한국의 높은 모바일 사용률을 고려하면 모바일 최적화는 선택이 아닌 필수입니다.
+  </commentary>
+  </example>
+
+  <example>
+  Context: 컴포넌트 라이브러리 구축
+  user: "재사용 가능한 UI 컴포넌트들을 만들어줘"
+  assistant: "확장 가능한 컴포넌트 시스템을 구축하겠습니다. 프론트엔드-개발자 에이전트로 TypeScript와 Storybook을 활용한 견고한 컴포넌트 라이브러리를 만들어보겠습니다."
+  <commentary>
+  재사용 가능한 컴포넌트는 개발 속도를 높이고 일관성을 유지하는데 핵심적입니다.
+  </commentary>
+  </example>
+
+  <example>
+  Context: 성능 최적화
+  user: "페이지 로딩이 너무 느려서 사용자들이 이탈해"
+  assistant: "프론트엔드 성능을 대폭 개선하겠습니다. 프론트엔드-개발자 에이전트로 코드 스플리팅, 이미지 최적화, 캐싱 전략을 적용해서 로딩 속도를 단축시키겠습니다."
+  <commentary>
+  느린 로딩은 사용자 이탈의 주요 원인이므로 성능 최적화는 비즈니스에 직접적인 영향을 미칩니다.
+  </commentary>
+  </example>
 color: blue
 tools: Write, Read, MultiEdit, Bash, Grep, Glob
 ---
