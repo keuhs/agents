@@ -22,6 +22,7 @@ engineers/
   frontend-developer.md
   technical-writer.md
   tester.md
+  unity-client-developer.md
 product-managers/
   product-manager.md
 testers/
